@@ -1,0 +1,63 @@
+/* Estilos da barra de navegação */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #007bff; /* Azul primário */
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.spacer {
+  flex-grow: 1; /* Flexível para ocupar o espaço entre a logo e os botões */
+}
+
+/* Estilos dos botões de navegação */
+nav button {
+  font-size: 1em;
+  margin: 0 10px;
+  color: white;
+}
+
+nav button.active {
+  font-weight: bold;
+  border-bottom: 2px solid white; /* Estilo para o botão ativo */
+}
+
+/* Estilos do container principal */
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: calc(100vh - 64px); /* Ajuste para o espaço da navbar */
+  text-align: center;
+}
+
+/* Estilos do cabeçalho */
+.header {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  color: #333;
+}
+
+.header p {
+  color: #666;
+}
+
+/* Estilos do rodapé */
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #007bff; /* Azul primário */
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

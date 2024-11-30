@@ -1,0 +1,40 @@
+{
+  "name": "meu-projeto-fastfood",
+  "version": "1.0.0",
+  "description": "script",
+  "main": "index.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve:ssr": "node dist/meu-projeto-fastfood/server/server.mjs"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabsBugs/fastfood.git"
+  },
+  "author": "Gabrielly Tiberio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabsBugs/fastfood/issues"
+  },
+  "homepage": "https://github.com/GabsBugs/fastfood#readme",
+  "dependencies": {
+    "@angular/compiler": "^18.2.6",
+    "@angular/forms": "^18.2.6",
+    "@angular/material": "^18.2.6",
+    "@angular/platform-server": "^18.2.6",
+    "@angular/router": "^18.2.6",
+    "@nguniversal/express-engine": "^16.2.0",
+    "meu-projeto-fastfood": "file:"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.2.6",
+    "@angular/material": "^18.2.6",
+    "@types/jasmine": "^5.1.4",
+    "jasmine-core": "^5.3.0"
+  }
+}
